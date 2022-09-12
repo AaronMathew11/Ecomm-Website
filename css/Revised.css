@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+li,a,h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+}
+
+hr{
+    width: 60%; margin: auto;
+}
+
+header .nav{
+    display: flex;
+    background-color: #3A4468;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    width: 100%;
+
+}
+
+header .account_details{
+    background-color:#434F78;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+header .account_details input{
+    margin-right: auto;
+}
+
+.logo_container{
+    margin-right: auto;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+header li {
+ display: inline-block;
+ padding: 0px 20px;
+}
+
+li a:hover{
+    color: #f3c93e;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313958;
+    color: white;
+    /* padding-top: 65px; */
+    font-size: 16px;
+    /* height: 93vh; */
+}
+
+main div{
+    padding: 60px;
+}
+
+main div span{
+    font-size: 1.3rem;
+
+}
+
+img{
+   height: 93vh;
+    width: 60%;
+   
+}
+button{
+    background-color: #f3c93e; 
+    color:white;
+    border-radius: 5px ;
+    padding: 10px 45px;
+    border-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+footer{
+    height: 400px;
+    margin-bottom: 0px;
+    background-color: #3a4468;
+    padding: 40px;
+    color: white;
+    
+    
+}
+footer .flex-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 100px;
+}
+
+footer .flex-container div{
+    padding: 20px;
+}
+
