@@ -67,7 +67,8 @@ a:focus {
 }
 
 .header_section {
-  background-color: #3a4468;
+  background-color:#3a4468;
+  background-image: url("images/blue.jpg");
 }
 
 .header_section .container-fluid {
